@@ -17,7 +17,7 @@ header {
   /*aplicar imagem de fundo ao cabeçalho*/
   background-image: url("../img/cafeteria3.jpg");
   /*ajustar o tamanho da imagem de fundo*/
-  background-size: 100% cover;
+  background-size: 100%;
   /*alterar a posição vertical de imagem*/
   background-position-y: -500px;
   padding-top: 100px;
@@ -36,7 +36,7 @@ h1 {
 }
 /* vamos fazer a formatação da barra de navegação*/
 nav {
-  background-color: black;
+  background-color: pink;
   padding: 10px;
   text-align: center;
 }
@@ -51,4 +51,44 @@ nav ul li a {
   font-family: Arial;
   /*tirar o sublinhado*/
   text-decoration: nome;
+}
+
+main {
+  padding: 20px;
+}
+footer {
+  background-color: pink;
+  /*permitir com que o rodapé fique com seu conteúdo flexível*/
+  display: flex;
+  /* dispor o conteúdo em linha */
+  flex-direction: row;
+  /* ajustar o conteúdo com justify-content e align-itens */
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#endereco {
+  font-family: arial;
+  font-size: 12pt;
+  color: white;
+  width: 300px;
+  text-align: center;
+}
+#redes {
+  position: absolute;
+  right: 50px;
+}
+#redes ul {
+  /* retirar as bolinhas de marcação */
+  list-style: none;
+}
+/* Vamos dispor as imagens das redes com display inline-block */
+#redes ul li {
+  display: inline-block;
+  margin: 10px;
+}
+#redes ul li a img {
+  width: 30px;
+  height: 30px;
 }
