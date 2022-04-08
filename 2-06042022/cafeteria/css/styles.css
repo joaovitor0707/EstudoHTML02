@@ -47,7 +47,7 @@ nav ul li {
   margin: 5px;
 }
 nav ul li a {
-  color: white;
+  color: black;
   font-family: Arial;
   /*tirar o sublinhado*/
   text-decoration: nome;
@@ -71,7 +71,7 @@ footer {
 #endereco {
   font-family: arial;
   font-size: 12pt;
-  color: white;
+  color: black;
   width: 300px;
   text-align: center;
 }
@@ -133,3 +133,32 @@ main p {
   transform: scale(1.2);
 }
 /* ============ fim da home=============== */
+/* =====================Inicio dos estilos da página história======================= */
+#imghistoria {
+  /* centralizar o conteudo desta div  */
+  text-align: center;
+  /* alterar a largura da caixa com imgs */
+  width: 90%;
+  /* Centralizar a div que contem as imagens */
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Vamos formatar o tamanho da caixa das imagens que estão dentro de imghitoria */
+#imghistoria img {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+#videohistoria {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#videohistoria iframe {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ===================== fim  da página história======================= */
